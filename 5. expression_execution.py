@@ -15,6 +15,7 @@ print((b+text)*a)
 d = 3
 e = 2
 calculate = e**d
+
 # '**' means power in mathematics
 print('the value of d is : ',d)
 print('the value of e is : ',e)
@@ -39,3 +40,15 @@ a = 12
 b = 21
 print('the result of a/b is : ',a/b)
 
+print('---------------------------------')
+# Remainder is negative when only denomenator is negative
+a = 10
+b = -22
+c = a % a
+d = b % b
+e = a % b
+f = b % a 
+print('the result of c is : ',c)
+print('the result of d is : ',d)
+print('the result of e is : ',e)
+print('the result of f is : ',f)
